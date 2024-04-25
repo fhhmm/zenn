@@ -12,7 +12,8 @@ def asyncFunc()(implicit ec: ExecutionContext): Future[Unit] = {
   ...
 }
 ```
-`(implict ec: ExecutionContext)`がよく分からないので、まずはカリー化から勉強してみる。
+~~`(implict ec: ExecutionContext)`がよく分からないので、まずはカリー化から勉強してみる。~~
+カリー化は関係なさそうだった...
 
 # カリー化
 ## 構文
